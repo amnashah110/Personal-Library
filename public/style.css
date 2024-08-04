@@ -1,0 +1,212 @@
+@font-face {
+  font-family: "Bella";
+  src: url("/public/fonts/Bella.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bluu";
+  src: url("/public/fonts/BluuNext-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/public/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+body {
+  background-image: url('/public/library.png');
+  background-size: contain;
+  background-position: center;
+  font-family: 'Bella';
+  color: rgb(199, 186, 0);
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-top: 3%;
+}
+
+header {
+  font-size: 2em;
+  text-shadow: 
+      5px 5px 0 #445001,   
+     -3px 3px 0 #000,   
+      3px -3px 0 #000,
+     -3px -3px 0 #000,  
+      3px 0px 0 #000,  
+     -3px 0px 0 #000,  
+      0px 3px 0 #000,
+      0px -3px 0 #000;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: wheat;
+  text-shadow: 
+      3px 3px 0 #000000,   
+     -3px 3px 0 #000,   
+      3px -3px 0 #000,
+     -3px -3px 0 #000,  
+      3px 0px 0 #000,  
+     -3px 0px 0 #000,  
+      0px 3px 0 #000,
+      0px -3px 0 #000;
+  margin-top: -2%;
+}
+
+label, p {
+  font-size: 2em;
+  color: wheat;
+  text-shadow: 
+      3px 3px 0 #000000,   
+     -3px 3px 0 #000,   
+      3px -3px 0 #000,
+     -3px -3px 0 #000,  
+      3px 0px 0 #000,  
+     -3px 0px 0 #000,  
+      0px 3px 0 #000,
+      0px -3px 0 #000;
+  margin-top: -3%;
+  padding-bottom: 7%;
+}
+
+#bookTitleToAdd, button, #commentToAdd, .addComment, .deleteBook {
+  border-radius: 20px;
+  font-size: 1.3em;
+  padding: 1.4%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: 'Bella';
+  border: 4px solid black;
+  cursor: pointer;
+}
+
+.addComment, .deleteBook {
+  background-color: rgb(45, 177, 45);
+  font-size: 0.8em;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: -10%;
+}
+
+.addComment:hover {
+  background-color: rgb(27, 136, 27);
+}
+
+.deleteBook {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: rgb(207, 80, 80);
+}
+
+.deleteBook:hover {
+  background-color: rgb(167, 51, 51);
+}
+
+#commentToAdd {
+  font-size: 0.7em;
+  cursor: text;
+  width: 70%;
+}
+
+#bookTitleToAdd {
+  cursor: text;
+}
+
+#newBook:hover {
+  background-color: rgb(27, 136, 27);
+}
+
+#newBook {
+  background-color: rgb(45, 177, 45);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#detailTitle {
+  margin-top: -3%;
+  font-family: 'Poppins';
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sampleui {
+  text-align: center;
+}
+
+#display, #detailComments {
+  font-size: 1.8em;
+  font-family: 'Poppins';
+  color: wheat;
+  word-wrap: break-word; 
+  letter-spacing: 0px;
+  text-align: left;
+  white-space: normal;
+  padding: 0%;
+  padding: 8%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: -13%;
+  margin-bottom: -20%;
+  text-shadow: 
+      3px 3px 0 #000000,   
+     -3px 3px 0 #000,   
+      3px -3px 0 #000,
+     -3px -3px 0 #000,  
+      3px 0px 0 #000,  
+     -3px 0px 0 #000,  
+      0px 3px 0 #000,
+      0px -3px 0 #000;
+}
+
+#display {
+  cursor: pointer;
+}
+
+
+#detailComments {
+  margin-top: 17%;
+  font-size: 1.5em;
+  margin-left: 10%;
+  color: white;
+}
+
+.addComment, .deleteBook, #commentToAdd {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+#deleteAllBooks {
+  width: 70%;
+  background-color: rgb(207, 80, 80);
+  margin-top: 4%;
+}
+
+#deleteAllBooks:hover {
+  background-color: rgb(167, 51, 51);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 5px;
+}
