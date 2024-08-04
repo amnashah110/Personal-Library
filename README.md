@@ -1,5 +1,5 @@
 # Personal Library
 
-A CRUD library application created using MERN stack
+A fullstack CRUD library application with MongoDB and Mongoose.
 
 ![Project Screenshot](public/library.jpeg)
